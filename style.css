@@ -1,0 +1,43 @@
+* {
+  font-family: 'Garamond', serif;
+  font-size: 14px;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  width: 75%;
+}
+
+a:link, a:visited, a:active {
+  color: #427ea3;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px;
+}
+
+a:hover {
+  color: #8db3ca;
+}
+
+.header {
+  padding-top: 14px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#quote, #author {
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer p {
+  font-size: 12px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  * {
+    width: 95%; 
+  }
+}
