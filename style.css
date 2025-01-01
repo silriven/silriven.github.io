@@ -2,9 +2,11 @@
   font-family: 'Garamond', serif;
   font-size: 14px;
   margin: auto;
-  padding: 5px;
-  text-align: center;
-  width: 75%;
+  width: 80%;
+}
+
+p {
+  padding: 5px 0 5px 0;
 }
 
 a:link, a:visited, a:active {
@@ -19,11 +21,32 @@ a:hover {
 }
 
 .header {
-  padding-top: 14px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.links {
+  text-align: center;
+}
+
+.page {
 }
 
 h1 {
   font-size: 20px;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  font-size: 16px;
+  padding: 5px;
+  border-bottom: 1px solid black;
 }
 
 #quote, #author {
@@ -31,9 +54,13 @@ h1 {
   margin: 0px;
 }
 
+.footer {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
 .footer p {
   font-size: 12px;
-  padding: 0px;
 }
 
 @media screen and (max-width: 800px) {
